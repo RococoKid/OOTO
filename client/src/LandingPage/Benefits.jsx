@@ -1,4 +1,5 @@
 import React from 'react';
+import GetStartedButton from './GetStartedButton';
 
 const Benefits = () => {
     return (
@@ -10,8 +11,7 @@ const Benefits = () => {
         <div>
             <h2>Real-Time Team Visibility</h2>
             <h3>Improved team coordination: Know when teammates are on leave, working from home, or in different time zones. Enhace coordination and avoid miscommunications effortlessly.</h3>
-            <button> Click to learn more
-            </button>
+            <GetStartedButton/>
         </div>
         </div>
     )

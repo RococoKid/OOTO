@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Testimonials from './Testimonials';
 import Benefits from './Benefits';
 import Main from './Main';
+import StayConnected from './StayConnected';
 
 const LandingPage = () => {
     return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
             <Main/>
             <Benefits/>
             <Testimonials/>
+            <StayConnected/>
             <Footer/>
         </div>
     )
